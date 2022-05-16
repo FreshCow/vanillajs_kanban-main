@@ -23,7 +23,8 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "build": "webpack",
-    "dev-server": "webpack serve"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
   }
 }
